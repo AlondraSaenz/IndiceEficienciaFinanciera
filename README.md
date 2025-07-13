@@ -16,9 +16,13 @@ Este proyecto requiere algunos paquetes para funcionar correctamente. Puedes ins
   pip install pandas pyodbc requests openpyxl
   
 # Si usas un entorno virtual (recomendado), crea uno primero con:
-python -m venv venv
-venv\Scripts\activate    # En Windows
-source venv/bin/activate   # En Linux/Mac
+  python -m venv venv
+ 
+  En Windows:
+  venv\Scripts\activate    
+
+  En Linux/Mac:
+  source venv/bin/activate  
 
 # Y luego instala los paquetes como se indicó.
 
